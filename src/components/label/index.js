@@ -79,7 +79,7 @@ export default class Label extends PureComponent {
         });
 
     let textStyle = {
-      lineHeight: fontSize+6,
+      lineHeight: fontSize+8,
       fontSize,
       color,
     };
