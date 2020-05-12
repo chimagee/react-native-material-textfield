@@ -217,7 +217,7 @@ export default class TextField extends PureComponent {
     }
 
     if(prevProps.value!==this.props.value){
-      this.setValue(this.props.value)
+      this.onChangeText(this.props.value)
     }
   }
 
