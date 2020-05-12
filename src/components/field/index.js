@@ -392,7 +392,7 @@ export default class TextField extends PureComponent {
 
   onChangeText(text) {
     let { onChangeText, formatText } = this.props;
-    let formatted = ''
+    let formatted = text
     if ('function' === typeof formatText) {
       formatted = formatText(text);
     }
